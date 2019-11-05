@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.base-container {
+	box-sizing: content-box;
+}
+
+.header {
+	font-weight: 600;
+	font-size: 3em;
+}
+
+.card-container {
+	margin: 20px;
+	display: flex;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-flow: wrap;
+	padding: 10px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 10px 5px 5px grey;
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+}
+
+.image-container {
+	width: 100%;
+	height: 200px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.text-header {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.text-description {
+	font-weight: 400;
+}
