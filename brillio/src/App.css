@@ -34,6 +34,7 @@ code {
 
 .base-container {
 	box-sizing: content-box;
+	overflow: hidden;
 }
 
 .header {
