@@ -8,11 +8,11 @@ class CardContainer extends Component{
     <div className="base-container">
       <div className="header"> Welcome to Apple Music</div>
         <div className="card-container">
-         {cardData.results.map(({artworkUrl100, artistName, collectionName}) =>{
+         {cardData.results.map(({artistId, artworkUrl100, artistName, collectionName}) =>{
             return  (
-            <div className="card">
+            <div className="card" key={artistId}>
             <div className="image-container">
-              <img src={artworkUrl100}  alt ={artistName} />
+              <img src={artworkUrl100}  alt={artistName} />
             </div>
             <div className="text-container">
               <span className="text-header">{artistName}</span >

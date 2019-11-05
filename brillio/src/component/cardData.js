@@ -2,7 +2,7 @@ export const cardData = {
     "resultCount": 5,
     "results": [
         {
-            "artistId": 909253,
+            "artistId": 909254,
             "collectionId": 1440857781,
             "trackId": 1440857786,
             "artistName": "Jack Johnson",
@@ -32,7 +32,7 @@ export const cardData = {
         },
         {
 
-            "artistId": 909253,
+            "artistId": 909255,
             "collectionId": 1440857781,
             "trackId": 1440857795,
             "artistName": "Jack Johnson",
@@ -46,7 +46,7 @@ export const cardData = {
             "releaseDate": "2005-03-01T12:00:00Z"
         },
         {
-            "artistId": 909253,
+            "artistId": 909256,
             "collectionId": 1440857781,
             "trackId": 1440857908,
             "artistName": "Jack Johnson",
@@ -60,7 +60,7 @@ export const cardData = {
             "releaseDate": "2005-03-01T12:00:00Z"
         },
         {
-            "artistId": 909253,
+            "artistId": 909273,
             "collectionId": 1440857781,
             "trackId": 1440857797,
             "artistName": "Jack Johnson",
